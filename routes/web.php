@@ -16,18 +16,9 @@ use App\Http\Controllers\Homecontroller;
 */
 
 Route::get('/', [Homecontroller::class, 'index']);
+Route::get('/menu', [Homecontroller::class, 'index']);
+Route::get('/kategori', [Homecontroller::class, 'index']);
 
-Route::get('/about', [Homecontroller::class, 'about']);
-
-Route::get('/add', [Homecontroller::class, 'tambah']);
-
-Route::post('/save', [Homecontroller::class, 'simpan']);
-
-Route::get('/makanan', [Homecontroller::class, 'view_makanan']);
-
-Route::get('/test_querybuilder', [Homecontroller::class, 'test_querybuilder']);
-
-Route::get('/test_eloquent', [Homecontroller::class, 'test_eloquent']);
 
 
 

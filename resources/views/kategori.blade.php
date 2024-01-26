@@ -1,5 +1,5 @@
 @extends('templating.template')
 
 @section('nav')
- <h2>Halaman About</h2>
+ <h2>Halaman Kategori</h2>
 @endsection 
