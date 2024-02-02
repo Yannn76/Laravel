@@ -11,13 +11,14 @@ class makanan extends Model
 
     protected $table = 'makanans';
 
-    protected $primarykey = 'kode_makanan';
+    protected $primaryKey = 'kode_makanan';
+    protected $keyType = 'string';
 
     protected $fillable = [
-        'kode_makanan'
-        'nama'
-        'kategori'
-        'harga'
-        'ket'
+        'kode_makanan',
+        'nama',
+        'kategori',
+        'harga',
+        'ket',
       ];
 }
